@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VoiceToText</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-box">
+        <h1>VoiceToText </h1>
+        
+        <p id="status-message">Press Start to speak
+        ,then we take care!
+        </p>
+        <p id="permission-reminder">make sure you have given permission for accessing the microphone :)</p>
+
+        <textarea id="my-textarea" placeholder="Text will appear here..."></textarea>
+        
+        <br>
+
+        <button id="start-btn">Start Listening</button>
+        <button id="stop-btn">Stop Listening</button>
+        <button id="clear-btn">Clear</button>
+        <button id="save-btn">Save Note</button>
+
+        <div class="saved-section">
+            <h3>My Saved Notes:</h3>
+            <div id="list-of-notes">
+                <p>No notes yet.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

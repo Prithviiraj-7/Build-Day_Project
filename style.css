@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #071739, #0c1f52, #112a70);
+    margin: 20px;
+    display: block;
+    color: #e6eaff;
+}
+
+.main-box {
+    width: 600px;
+    margin: 20px auto;
+    background: rgba(20, 34, 71, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.45);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#status-message {
+    color: #cbd3f7;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#permission-reminder {
+    color: #b6bce6;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#my-textarea {
+    width: 96%;
+    height: 200px;
+    border: 1px solid #7987c4;
+    padding: 10px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 8px;
+    resize: none;
+    outline: 2px solid #1d46a1;
+}
+
+#my-textarea::placeholder {
+    color: #8892b3;
+}
+
+#my-textarea:focus {
+    background: rgba(255, 255, 255, 0.14);
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+
+button:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+#start-btn {
+    background-color: #2b8f5f;
+    color: #e1ffe9;
+}
+
+#stop-btn {
+    background-color: #b94343;
+    color: #ffeaea;
+}
+
+#save-btn {
+    background-color: #345aa8;
+    color: #dfe7ff;
+}
+
+#clear-btn {
+    background-color: #555b6e;
+    color: #f2f2f2;
+}
+
+.saved-section {
+    margin-top: 30px;
+    border-top: 2px solid #d1d6ff;
+    padding-top: 10px;
+}
+
+h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.note-item {
+    background: rgba(0, 180, 195, 0.25);
+    border: 1px solid #0c3e48;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #d0f9ff;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.35);
+}
+
+.delete-btn {
+    background-color: #a82626;
+    color: white;
+    font-size: 12px;
+    float: right;
+    padding: 3px 6px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.35);
+}
+
+.delete-btn:hover {
+    opacity: 0.75;
+}
